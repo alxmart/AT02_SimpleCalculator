@@ -1,2 +1,2 @@
 # AT02_SimpleCalculator
-Lab 4 from AndroidATC's course "Android Application Development".
+Lab 4 from Android ATC course "Android Application Development".
