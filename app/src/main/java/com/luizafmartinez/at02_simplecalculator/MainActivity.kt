@@ -1,10 +1,7 @@
 package com.luizafmartinez.at02_simplecalculator
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.luizafmartinez.at02_simplecalculator.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +13,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-       //setContentView(R.layout.activity_main)
         setContentView(binding.root)
 
         val n1 = binding.edtnumber1.text
@@ -41,7 +37,5 @@ class MainActivity : AppCompatActivity() {
             var sumResult = n1.toString().toDouble() / n2.toString().toDouble()
             binding.txtResult.text = sumResult.toString()
         }
-
-
     }
 }
